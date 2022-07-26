@@ -1,0 +1,25 @@
+{
+  "name": "shilpa-project",
+  "version": "1.0.0",
+  "description": "Staff Scheduling application",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "nodemon app.js",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\"",
+    "deploy": "docker-compose up --build -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.11.0",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.5.0",
+    "winston": "^3.8.1"
+  }
+}
